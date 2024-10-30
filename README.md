@@ -1,19 +1,27 @@
-# 🎈 Blank app template
+# WhatCode
 
-A simple Streamlit app template for you to modify!
+## Overview
+WhatCode is an open-source web application that allows developers to search for solutions to coding problems based on keywords or error messages. It uses a combination of OpenAI API and Github API to fetch relevant file and analyze the files in a repository to generate a read me. This project was created by Kumar Priyank as a personal project to help developers easily find solutions to their coding problems.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Technology Stack
+ - Python
+ - Streamlit
+ - OpenAI
+ - LangChain
+ - Github
+   
+## Prerequisites
+ - Python 3.6 or higher
+ - Flask
+ - Virtual environment (recommended)
 
-### How to run it on your own machine
+## Installation Steps
+ - Clone the repository using git clone https://github.com/priyankt3i/WhatCode.git
+ - Navigate to the project directory
+ - Create a virtual environment by running virtualenv venv (optional but recommended)
+ - Activate the virtual environment by running source venv/bin/activate (for Mac/Linux) or venv\Scripts\activate (for Windows)
+ - Install the required dependencies using:
+   ```pip install -r requirements.txt```
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+ - To Run:
+   ```streamlit run main.py```
