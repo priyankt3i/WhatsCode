@@ -1,7 +1,7 @@
-# WhatCode
+# WhatsCode
 
 ## Overview
-WhatCode is an open-source web application that allows developers to search for solutions to coding problems based on keywords or error messages. It uses a combination of OpenAI API and Github API to fetch relevant file and analyze the files in a repository to generate a read me. This project was created by Kumar Priyank as a personal project to help developers easily find solutions to their coding problems.
+WhatsCode is an open-source web application that allows developers to search for solutions to coding problems based on keywords or error messages. It uses a combination of OpenAI API and Github API to fetch relevant file and analyze the files in a repository to generate a read me. This project was created by Kumar Priyank as a personal project to help developers easily find solutions to their coding problems.
 
 Demo: https://blank-app-3ge0sdrpcv7.streamlit.app/
 
